@@ -57,7 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F91941D823D09FFB00FA0D53 /* CDMManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CDMManager.xcodeproj; path = ../CDMManager/CDMManager.xcodeproj; sourceTree = "<group>"; };
+		F91941D823D09FFB00FA0D53 /* CDMManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CDMManager.xcodeproj; path = CDMManager/CDMManager.xcodeproj; sourceTree = "<group>"; };
 		F94A80F42385EBD600AA858B /* amphetamine-enhancer-allProcesses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "amphetamine-enhancer-allProcesses.plist"; sourceTree = "<group>"; };
 		F94A80F72385EBD600AA858B /* amphetamine-enhancer-allProcesses.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "amphetamine-enhancer-allProcesses.sh"; sourceTree = "<group>"; };
 		F94A80F82385EBD600AA858B /* amphetamine-enhancer-cdmManager.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "amphetamine-enhancer-cdmManager.sh"; sourceTree = "<group>"; };
