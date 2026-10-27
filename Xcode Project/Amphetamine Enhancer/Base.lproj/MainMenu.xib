@@ -558,13 +558,7 @@
                             <font key="font" usesAppearanceFont="YES"/>
                             <string key="title">Amphetamine Enhancer
 
-Created with 🤍 by William Gustafson
-
-
-Amphetamine Enhancer makes use of:
-
-LetsMove
-https://github.com/potionfactory/LetsMove</string>
+Created with 🤍 by William Gustafson</string>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>

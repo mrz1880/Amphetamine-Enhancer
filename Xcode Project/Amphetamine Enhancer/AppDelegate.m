@@ -16,7 +16,6 @@
 
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification
 {
-    PFMoveToApplicationsFolderIfNecessary();
     [self.mainWindow makeKeyAndOrderFront:self];
     [self.mainWindow center];
     [self setupEnhancementTable];

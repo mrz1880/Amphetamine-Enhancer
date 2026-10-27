@@ -10,7 +10,6 @@
 #include <CoreFoundation/CoreFoundation.h>
 #include <sys/sysctl.h>
 #include <IOKit/IOKitLib.h>
-@import LetsMove;
 
 #define kClosedDisplay @"amphetamine-enhancer-cdmManager"
 #define kClosedDisplayPlist @"amphetamine-enhancer-cdmManager.plist"
