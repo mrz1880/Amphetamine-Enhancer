@@ -25,7 +25,8 @@
     IOServiceOpen (pmRootDomain, current_task(), 0, &connection);
     RootDomain_SetDisableClamShellSleep(connection, NO);
     IOServiceClose(connection);
-    
+    IOObjectRelease(pmRootDomain);
+
     [NSApp terminate:self];
 }
 
