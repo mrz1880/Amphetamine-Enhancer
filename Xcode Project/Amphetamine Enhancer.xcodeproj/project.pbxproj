@@ -30,6 +30,13 @@
 			remoteGlobalIDString = F9AC7E3723C3F037007FBE9F;
 			remoteInfo = CDMManager;
 		};
+		A0E5F1C02C9F000100A1B2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91941D823D09FFB00FA0D53 /* CDMManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F9AC7E3623C3F037007FBE9F;
+			remoteInfo = CDMManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -172,6 +179,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A0E5F1C12C9F000100A1B2C3 /* PBXTargetDependency */,
 			);
 			name = "Amphetamine Enhancer";
 			productName = "Amphetamine Enhancer";
@@ -253,6 +261,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E5F1C12C9F000100A1B2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDMManager;
+			targetProxy = A0E5F1C02C9F000100A1B2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9B5E26023427E4D00A3B48E /* MainMenu.xib */ = {
