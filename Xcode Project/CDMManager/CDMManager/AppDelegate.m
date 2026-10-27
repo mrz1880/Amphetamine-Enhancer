@@ -20,7 +20,7 @@
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification
 {
     io_connect_t connection = IO_OBJECT_NULL;
-    io_service_t pmRootDomain = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPMrootDomain"));
+    io_service_t pmRootDomain = IOServiceGetMatchingService(kIOMainPortDefault, IOServiceMatching("IOPMrootDomain"));
     
     IOServiceOpen (pmRootDomain, current_task(), 0, &connection);
     RootDomain_SetDisableClamShellSleep(connection, NO);
