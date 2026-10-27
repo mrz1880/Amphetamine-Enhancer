@@ -88,13 +88,6 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                            <menuItem title="Check For Updates..." id="rgd-ns-9cd">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="checkForUpdates:" target="ZTi-ga-qFx" id="T32-JH-f8v"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="2px-Qf-mH7"/>
                             <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
                                 <connections>
                                     <action selector="openPreferencesWindow:" target="Voe-Tx-rLC" id="Fdl-Fo-wa1"/>
@@ -571,10 +564,7 @@ Created with 🤍 by William Gustafson
 Amphetamine Enhancer makes use of:
 
 LetsMove
-https://github.com/potionfactory/LetsMove
-
-Sparkle
-https://github.com/sparkle-project/Sparkle</string>
+https://github.com/potionfactory/LetsMove</string>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -587,6 +577,5 @@ https://github.com/sparkle-project/Sparkle</string>
             </view>
             <point key="canvasLocation" x="35" y="134"/>
         </window>
-        <customObject id="ZTi-ga-qFx" customClass="SUUpdater"/>
     </objects>
 </document>

@@ -11,7 +11,6 @@
 #include <sys/sysctl.h>
 #include <IOKit/IOKitLib.h>
 @import LetsMove;
-//@import Sparkle;
 
 #define kClosedDisplay @"amphetamine-enhancer-cdmManager"
 #define kClosedDisplayPlist @"amphetamine-enhancer-cdmManager.plist"

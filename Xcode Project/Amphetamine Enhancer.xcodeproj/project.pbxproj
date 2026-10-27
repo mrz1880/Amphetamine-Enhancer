@@ -14,8 +14,6 @@
 		F94A81012385EBD600AA858B /* amphetamine-enhancer-allProcesses.sh in Resources */ = {isa = PBXBuildFile; fileRef = F94A80F72385EBD600AA858B /* amphetamine-enhancer-allProcesses.sh */; };
 		F94A81022385EBD600AA858B /* amphetamine-enhancer-cdmManager.sh in Resources */ = {isa = PBXBuildFile; fileRef = F94A80F82385EBD600AA858B /* amphetamine-enhancer-cdmManager.sh */; };
 		F94A81032385EBD600AA858B /* amphetamine-enhancer-cdmManager.plist in Resources */ = {isa = PBXBuildFile; fileRef = F94A80F92385EBD600AA858B /* amphetamine-enhancer-cdmManager.plist */; };
-		F94C4C4323E1D9D100083222 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94C4C4223E1D9D100083222 /* Sparkle.framework */; };
-		F94C4C4523E1DA2C00083222 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F94C4C4223E1D9D100083222 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F9B5E25D23427E4C00A3B48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5E25C23427E4C00A3B48E /* AppDelegate.m */; };
 		F9B5E25F23427E4D00A3B48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E25E23427E4D00A3B48E /* Assets.xcassets */; };
 		F9B5E26223427E4D00A3B48E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E26023427E4D00A3B48E /* MainMenu.xib */; };
@@ -56,7 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F94C4C4523E1DA2C00083222 /* Sparkle.framework in CopyFiles */,
 				F909BB0623E1E25600F6C36C /* LetsMove.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +67,6 @@
 		F94A80F82385EBD600AA858B /* amphetamine-enhancer-cdmManager.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "amphetamine-enhancer-cdmManager.sh"; sourceTree = "<group>"; };
 		F94A80F92385EBD600AA858B /* amphetamine-enhancer-cdmManager.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "amphetamine-enhancer-cdmManager.plist"; sourceTree = "<group>"; };
 		F94C4C3D23E1140A00083222 /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LetsMove.framework; sourceTree = "<group>"; };
-		F94C4C4223E1D9D100083222 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		F9B5E25823427E4C00A3B48E /* Amphetamine Enhancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amphetamine Enhancer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B5E25B23427E4C00A3B48E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9B5E25C23427E4C00A3B48E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94C4C4323E1D9D100083222 /* Sparkle.framework in Frameworks */,
 				F909BB0923E1E2A600F6C36C /* LetsMove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +144,6 @@
 				F9B5E26423427E4D00A3B48E /* main.m */,
 				F9B5E26623427E4D00A3B48E /* Amphetamine_Enhancer.entitlements */,
 				F94C4C3D23E1140A00083222 /* LetsMove.framework */,
-				F94C4C4223E1D9D100083222 /* Sparkle.framework */,
 			);
 			path = "Amphetamine Enhancer";
 			sourceTree = "<group>";
